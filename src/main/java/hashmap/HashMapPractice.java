@@ -9,6 +9,7 @@ public class HashMapPractice {
         //value 값은 key 값이 다를 경우 중복 가능
 
         HashMap<Integer, String> mu = new HashMap<>();
+        mu.put(0, "에릭텐하흐");
         mu.put(8, "브루노페르난데스"); // key 와 value 를 저장
         mu.put(10, "마커스래시포드");
         mu.put(11, "라스무스회이룬");
@@ -27,6 +28,7 @@ public class HashMapPractice {
         fc.putAll(mu); // Map mu 데이터 전부 저장
         System.out.println("mu :" + fc + "\n");
 
+        System.out.println(" 감독 : " + mu.get(0));
         System.out.println(" 주장 : " + mu.get(8));
         System.out.println(" GK : " + mu.get(24));
         System.out.println(" DF : " + mu.get(29) + " " + mu.get(19) + " " + mu.get(35) + " " + mu.get(20));
