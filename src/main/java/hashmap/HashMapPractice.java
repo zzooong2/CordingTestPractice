@@ -19,7 +19,7 @@ public class HashMapPractice {
         mu.put(20, "디오구달롯");
         mu.put(24, "안드레오나나");
         mu.put(29, "아론완-비사카");
-        mu.put(35, "조니에반스");
+        mu.put(5, "해리매과이어");
         mu.put(37, "코비마이누");
 
         System.out.println("<23.12.27 MU vs AV 선발 라인업>" + "\n");
@@ -31,7 +31,7 @@ public class HashMapPractice {
         System.out.println(" 감독 : " + mu.get(0));
         System.out.println(" 주장 : " + mu.get(8));
         System.out.println(" GK : " + mu.get(24));
-        System.out.println(" DF : " + mu.get(29) + " " + mu.get(19) + " " + mu.get(35) + " " + mu.get(20));
+        System.out.println(" DF : " + mu.get(29) + " " + mu.get(19) + " " + mu.get(5) + " " + mu.get(20));
         System.out.println(" MF : " + mu.get(8) + " " + mu.get(37) + " " + mu.get(14));
         System.out.println(" CF : " + mu.get(17) + " " + mu.get(11) + " " + mu.get(10) + "\n");
 
