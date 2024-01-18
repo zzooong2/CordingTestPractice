@@ -3,7 +3,6 @@ package fibonacci;
 public class FibonacciPractice {
     public static void main(String[] args) {
         int input = 8;
-
         for(int i=1; i<input; i++){
             System.out.println(fibo(i));
         }
