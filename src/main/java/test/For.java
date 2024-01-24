@@ -3,8 +3,8 @@ package test;
 public class For {
     public static void main(String[] args){
 
-        int num = 5;
-        int t = 3;
+        int num = 8;
+        int t = 5;
         int out = 0;
 
         for(int i=0; i<num; i++){
