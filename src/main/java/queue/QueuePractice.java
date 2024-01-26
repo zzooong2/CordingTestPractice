@@ -11,6 +11,7 @@ public class QueuePractice {
         q.offer("1"); //Queue에 값 1 추가
         q.offer("2"); //Queue에 값 2 추가
 
+
         System.out.println("=====Queue=====");
         while(!q.isEmpty()){ // q 안에 데이터가 모두 빠져나올 때 까지
             System.out.println(q.poll());
